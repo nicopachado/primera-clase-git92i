@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+footer{
+    margin-top: auto;
+}
+.card-heigth{
+    width: 18rem;
+
+}
+
+@media(max-width: 500px){
+    .card-heigth{
+        width: 100%;
+    }
+
+}
